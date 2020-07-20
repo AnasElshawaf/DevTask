@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DevTask</string>
+    <string name="name">Name :</string>
+    <string name="descrption">Descrption :</string>
+    <string name="user_name">User name :</string>
+    <string name="fork">Fork</string>
+    <string name="go_to_url">Go to Url</string>
+</resources>
