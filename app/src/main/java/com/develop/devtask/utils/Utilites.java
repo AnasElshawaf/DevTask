@@ -46,7 +46,7 @@ public class Utilites {
                 .setReplaceCurrent(false)
                 // We are mentioning that the job is periodic.
                 .setRecurring(true)
-                .setTrigger(Trigger.executionWindow(periodicity, toleranceInterval))
+                .setTrigger(Trigger.executionWindow(0, periodicity))
                 // retry with exponential backoff
                 .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR)
                 //.setRetryStrategy(RetryStrategy.DEFAULT_EXPONENTIAL)
